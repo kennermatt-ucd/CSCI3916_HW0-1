@@ -1,0 +1,31 @@
+// the web server software handling the request.
+Server
+nginx/1.28.1
+
+// date and time when the server generated the response.
+Date
+Mon, 02 Feb 2026 04:56:18 GMT
+
+// response body is JSON formatted data.
+Content-Type
+application/json
+
+// response data is sent in chunks instead of a single block.
+Transfer-Encoding
+chunked
+
+// keeps connection open so multiple requests can reuse it.
+Connection
+keep-alive
+
+// backend framework or service serving the request.
+x-served-by
+FastAPI
+
+// controls how much referrer information is sent when navigating between sites.
+Referrer-Policy
+no-referrer-when-downgrade
+
+// response data is compressed using gzip to reduce size.
+Content-Encoding
+gzip
